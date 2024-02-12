@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FarmYard - Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.php"><img src="FY logo.png" alt="FarmYard logo" id="logo"></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+    </a></li>
+    <li>
+    <a href="#" id="cart-button">
+    
+    <span id="cart-count">0</span>
+    </a>
+    </li>
+    </ul>
+  </nav>
+</header>
+<section class="featured-products">
+  <h2>Our Products</h2>
+  <section id="products">
+    
+    <div class="product-grid">
+      <div class="product">
+        <img src="Yam.jpeg" alt="Product 1">
+        <h3>Yam</h3>
+        <p>GHS10.00</p>
+        <button onclick="addToCart({ name: 'Yam', price: 10 })">Add to Cart</button>
+      
+
+      </div>
+      <div class="product">
+        <img src="960x0.jpg" alt="Product 2">
+        <h3>Cassava</h3>
+        <p>GHS15.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Plantains-Plantain-bananas-areas-food-source.jpg" alt="Product 3">
+        <h3>Plantain</h3>
+        <p>GHS20.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="cabbage.jpg" alt="Product 4">
+        <h3>Cabbage</h3>
+        <p>GHS25.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Carrot.jpeg" alt="Product 5">
+        <h3>Carrot</h3>
+        <p>GHS30.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Garlic.jpg" alt="Product 6">
+        <h3>Garlic</h3>
+        <p>GHS35.00</p>
+        <button>Add to Cart</button>
+      </div>
+          <div class="product">
+            <img src="onions.jpg" alt="Product 7">
+            <h3>Onions</h3>
+            <p>GHS10.00</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="Carribean-Red-Peppers.jpg" alt="Product 8">
+            <h3>Pepper</h3>
+            <p>GHS15.00</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="Tomatoes.jpg" alt="Product 9">
+            <h3>Tomatoes</h3>
+            <p>GHS20.00</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="coconut.jpeg" alt="Product 10">
+            <h3>coconut</h3>
+            <p>GHS25.00</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="palm.jpeg" alt="Product 11">
+            <h3>Palm Kernnel</h3>
+            <p>GHS30.00</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="maize.jpeg" alt="Product 12">
+            <h3>Maize</h3>
+            <p>GHS35.00</p>
+            <button>Add to Cart</button>
+          </div>
+              <div class="product">
+                <img src="Beans.jpg" alt="Product 13">
+                <h3>Beans</h3>
+                <p>GHS10.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="Green Chilli Pepper.jpg" alt="Product 14">
+                <h3>Green Chilli Pepper</h3>
+                <p>GHS15.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="Red Chilli Pepper.jpg" alt="Product 15">
+                <h3>Red Chilli Pepper</h3>
+                <p>GHS20.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="Gardeneggs.jpg" alt="Product 16">
+                <h3>Garden eggs</h3>
+                <p>GHS25.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="Red Bell Pepper.jpg" alt="Product 17">
+                <h3>Red Bell Pepper</h3>
+                <p>GHS30.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="Lemon.jpg" alt="Product 18">
+                <h3>Lemon</h3>
+                <p>GHS35.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product1.jpg" alt="Product 19">
+                <h3>Product 1</h3>
+                <p>GHS10.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product2.jpg" alt="Product 20">
+                <h3>Product 2</h3>
+                <p>GHS15.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product3.jpg" alt="Product 21">
+                <h3>Product 3</h3>
+                <p>GHS20.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product4.jpg" alt="Product 22">
+                <h3>Product 4</h3>
+                <p>GHS25.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product5.jpg" alt="Product 23">
+                <h3>Product 5</h3>
+                <p>GHS30.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product6.jpg" alt="Product 24">
+                <h3>Product 6</h3>
+                <p>GHS35.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product1.jpg" alt="Product 25">
+                <h3>Product 1</h3>
+                <p>GHS10.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product2.jpg" alt="Product 26">
+                <h3>Product 2</h3>
+                <p>GHS15.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product3.jpg" alt="Product 27">
+                <h3>Product 3</h3>
+                <p>GHS20.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product4.jpg" alt="Product 28">
+                <h3>Product 4</h3>
+                <p>GHS25.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product5.jpg" alt="Product 29">
+                <h3>Product 5</h3>
+                <p>GHS30.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product6.jpg" alt="Product 30">
+                <h3>Product 6</h3>
+                <p>GHS35.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product1.jpg" alt="Product 31">
+                <h3>Product 1</h3>
+                <p>GHS10.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product2.jpg" alt="Product 32">
+                <h3>Product 2</h3>
+                <p>GHS15.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product3.jpg" alt="Product 33">
+                <h3>Product 3</h3>
+                <p>GHS20.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product4.jpg" alt="Product 34">
+                <h3>Product 4</h3>
+                <p>GHS25.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product5.jpg" alt="Product 35">
+                <h3>Product 5</h3>
+                <p>GHS30.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product6.jpg" alt="Product 36">
+                <h3>Product 6</h3>
+                <p>GHS35.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product1.jpg" alt="Product 37">
+                <h3>Product 1</h3>
+                <p>GHS10.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product2.jpg" alt="Product 38">
+                <h3>Product 2</h3>
+                <p>GHS15.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product3.jpg" alt="Product 39">
+                <h3>Product 3</h3>
+                <p>GHS20.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product4.jpg" alt="Product 40">
+                <h3>Product 4</h3>
+                <p>GHS25.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product5.jpg" alt="Product 41">
+                <h3>Product 5</h3>
+                <p>GHS30.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="img/product6.jpg" alt="Product 42">
+                <h3>Product 6</h3>
+                <p>GHS35.00</p>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+            <div class="cart-dropdown">
+              <h3>Cart</h3>
+              <ul class="cart-item-list"></ul>
+              <p class="cart-total">Total: $<span class="cart-total-amount">0.00</span></p>
+              <button class="checkout-button">Checkout</button>
+            </div>
+          </section>
+          
+        </div>
+      </section>
+      
+    </div>
+  </section>
+  
+</main>
+
+<footer>
+  <div class="social-media">
+        <a href="https://www.facebook.com/YourFacebookPage/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/YourTwitterHandle/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/YourInstagramHandle/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+<p>&copy; 2023 FarmYard. All rights reserved.</p>
+</footer>
+</body>
+</html>
